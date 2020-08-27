@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# This is a test shit
-
 a = {'hello' => "world", "testing" => BigDecimal.new(123.456, 3)}
 puts a
 
@@ -13,5 +11,3 @@ b = [1, 2, 3, 4, 5]
 puts b
 
 OpenSSL::Cipher::AES.new(128, :GCM)
-
-# shit happens
