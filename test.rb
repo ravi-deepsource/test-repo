@@ -3,9 +3,10 @@
 a = {'hello' => "world", "testing" => BigDecimal.new(123.456, 3)}
 puts a
 
-begin
+loop do
   do_something
-end while some_condition
+break unless some_condition
+end
 
 b = [1, 2, 3, 4, 5]
 puts b
