@@ -6,7 +6,3 @@ require 'hello'
 
 def some_method
 end
-
-puts :true
-
-a = :true
