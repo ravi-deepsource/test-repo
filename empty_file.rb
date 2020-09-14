@@ -1,1 +1,4 @@
-# Shit happens, and life goes on!
+# frozen_string_literal: true
+
+def some_method
+end
