@@ -7,4 +7,9 @@ puts a
 b = [1, 2, 3, 4, 5]
 puts b
 
+
+begin
+  do_something
+end while true != false
+
 OpenSSL::Cipher::AES.new(128, :GCM)
