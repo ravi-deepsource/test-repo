@@ -8,8 +8,9 @@ b = [1, 2, 3, 4, 5]
 puts b
 
 
-begin
+loop do
   do_something
-end while true != false
+break unless true != false
+end
 
 OpenSSL::Cipher::AES.new(128, :GCM)
