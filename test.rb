@@ -19,7 +19,7 @@ x < y && y < z
 
 begin
   bar
-rescue nil
+rescue
   baz
 end
 
