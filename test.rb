@@ -14,8 +14,8 @@ loop do
 break unless true != false
 end
 
-x < y < z
-10 <= x <= 20
+x < y && y < z
+10 <= x && x <= 20
 
 begin
   bar
