@@ -14,4 +14,20 @@ loop do
 break unless true != false
 end
 
+x < y < z
+10 <= x <= 20
+
+begin
+  bar
+rescue nil
+  baz
+end
+
+rand 1
+
+def some_method
+  return
+  do_something
+end
+
 OpenSSL::Cipher.new('aes-128-gcm')
