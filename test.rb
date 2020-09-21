@@ -30,4 +30,8 @@ def some_method
   do_something
 end
 
-OpenSSL::Cipher.new('aes-128-gcm')
+OpenSSL::Cipher::AES.new(128, :GCM)
+
+OpenSSL::Cipher::AES.new(128, :GCM)
+
+OpenSSL::Cipher::AES.new(128, :GCM)
