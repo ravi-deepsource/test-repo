@@ -23,6 +23,12 @@ rescue nil
   baz
 end
 
+begin
+  bar
+rescue nil
+  baz
+end
+
 rand 1
 
 def some_method
