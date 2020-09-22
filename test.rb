@@ -11,7 +11,7 @@ puts b
 
 begin
   do_something
-end while unless true != false
+end while true != false
 
 x < y < z
 10 <= x <= 20
