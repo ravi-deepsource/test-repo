@@ -1,7 +1,7 @@
 # encoding: ascii
 # frozen_string_literal: true
 
-a = {'hello' => 'world', "testing" => BigDecimal.new(123.456, 3)}
+a = {'hello' => 'world', "testing" => BigDecimal(123.456, 3)}
 puts a
 
 b = [1, 2, 3, 4, 5]
