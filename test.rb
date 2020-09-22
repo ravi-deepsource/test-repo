@@ -1,35 +1,31 @@
 # frozen_string_literal: true
 # encoding: ascii
 
-a = {'hello' => 'world', 'testing' => BigDecimal.new(123.456, 3)}
+a = {'hello' => 'world', "testing" => BigDecimal.new(123.456, 3)}
 puts a
 
 b = [1, 2, 3, 4, 5]
 puts b
 
-%i(foo bar)
+%i[:foo :bar]
 
-loop do
+begin
   do_something
-break unless true != false
-end
+end while unless true != false
 
-x < y && y < z
-10 <= x && x <= 20
-
-begin
-  bar
-rescue nil
-  baz
-end
+x < y < z
+10 <= x <= 20
 
 begin
   bar
-rescue nil
+rescue
   baz
 end
 
-rand 1
+def some_method(bar)
+  puts "Hello"
+end
+
 
 def some_method
   return
