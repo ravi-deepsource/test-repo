@@ -41,3 +41,6 @@ OpenSSL::Cipher::AES.new(128, :GCM)
 OpenSSL::Cipher::AES.new(128, :GCM)
 
 OpenSSL::Cipher::AES.new(128, :GCM)
+
+def some_method
+end
