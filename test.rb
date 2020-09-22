@@ -7,7 +7,7 @@ puts a
 b = [1, 2, 3, 4, 5]
 puts b
 
-%i[:foo :bar]
+%i[foo bar]
 
 loop do
   do_something
