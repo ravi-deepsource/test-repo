@@ -9,9 +9,10 @@ puts b
 
 %i[:foo :bar]
 
-begin
+loop do
   do_something
-end while true != false
+break unless true != false
+end
 
 x < y < z
 10 <= x <= 20
