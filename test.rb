@@ -13,8 +13,8 @@ begin
   do_something
 end while true != false
 
-x < y < z
-10 <= x <= 20
+x < y && y < z
+10 <= x && x <= 20
 
 begin
   bar
