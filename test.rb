@@ -22,7 +22,7 @@ rescue
   baz
 end
 
-def some_method(bar)
+def some_method(_bar)
   puts "Hello"
 end
 
