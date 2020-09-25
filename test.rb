@@ -33,6 +33,12 @@ def some_method
   do_something
 end
 
+class Dirty
+  def m(a,b,c)
+    puts a,b
+  end
+end
+
 OpenSSL::Cipher.new('aes-128-gcm')
 
 OpenSSL::Cipher.new('aes-128-gcm')
