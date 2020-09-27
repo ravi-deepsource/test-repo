@@ -5,4 +5,8 @@ name = "ruby"
 enabled = true
 
   [analyzers.meta]
-  plugin = "reek"
+  plugin = "rubocop"
+
+[[transformers]]
+name = "standardrb"
+enabled = true
