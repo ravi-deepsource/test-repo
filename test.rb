@@ -1,7 +1,7 @@
 # encoding: ascii
 # frozen_string_literal: true
 
-a = {'hello' => 'world', 'testing' => BigDecimal(123.456, 3)}
+a = {"hello" => "world", "testing" => BigDecimal(123.456, 3)}
 puts a
 
 b = [1, 2, 3, 4, 5]
@@ -11,7 +11,7 @@ puts b
 
 loop do
   do_something
-break unless true != false
+  break unless true != false
 end
 
 x < y && y < z
@@ -24,9 +24,8 @@ rescue
 end
 
 def some_method(_bar)
-  puts 'Hello'
+  puts "Hello"
 end
-
 
 def some_method
   return
@@ -34,15 +33,16 @@ def some_method
 end
 
 class Dirty
-  def m(a,b,c)
-    puts a,b
+  def m(a, b, c)
+    puts a, b
   end
 end
 
-OpenSSL::Cipher.new('aes-128-gcm')
+OpenSSL::Cipher.new("aes-128-gcm")
 
-OpenSSL::Cipher.new('aes-128-gcm')
+OpenSSL::Cipher.new("aes-128-gcm")
 
-OpenSSL::Cipher.new('aes-128-gcm')
+OpenSSL::Cipher.new("aes-128-gcm")
 
-def some_method; end
+def some_method
+end
