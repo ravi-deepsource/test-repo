@@ -6,7 +6,3 @@ enabled = true
 
   [analyzers.meta]
   plugin = "rubocop"
-
-[[transformers]]
-name = "standardrb"
-enabled = true
