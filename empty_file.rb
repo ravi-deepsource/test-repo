@@ -3,5 +3,4 @@
 require 'hello'
 require 'hello'
 
-
 def some_method; end
