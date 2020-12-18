@@ -1,5 +1,216 @@
+inherit_gem:
+  rubocop-shopify: rubocop.yml
+
+inherit_from: .rubocop_todo.yml
+
+# require:
+#   - './lib/cops/logger_format_cop.rb'
+#   - './lib/cops/redis_key_expiry_cop.rb'
+
+# CustomCops/LoggerFormatCop:
+#   Enabled: true
+#   Exclude:
+#     - 'config/**/*'
+#     - 'script/**/*'
+#     - 'spec/**/*'
+#     - 'lib/tasks/*'
+#     - 'lib/websocket/ws_logger.rb'
+
+# CustomCops/RedisKeyExpiryCop:
+#   Enabled: true
+
 AllCops:
-  NewCops: enable
+  TargetRubyVersion: 2.7.1
   Exclude:
-    - 'tests/**/*.rb'
-    - 'spec/**/*.rb'
+    - 'db/seeds.rb'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+
+Bundler/DuplicatedGem:
+  Enabled: true
+
+Layout/EmptyLineAfterMagicComment:
+  Enabled: true
+
+Layout/EmptyLineBetweenDefs:
+  Enabled: true
+
+Layout/EndAlignment:
+  Enabled: true
+
+Layout/IndentationStyle:
+  Enabled: true
+  EnforcedStyle: spaces
+
+Layout/IndentationWidth:
+  Enabled: true
+
+Layout/InitialIndentation:
+  Enabled: true
+
+Layout/LeadingCommentSpace:
+  Enabled: true
+
+Layout/RescueEnsureAlignment:
+  Enabled: true
+
+Layout/SpaceAfterComma:
+  Enabled: true
+
+Layout/TrailingEmptyLines:
+  Enabled: true
+
+Layout/TrailingWhitespace:
+  Enabled: true
+
+Lint/AmbiguousBlockAssociation:
+  Enabled: true
+
+Lint/AmbiguousOperator:
+  Enabled: true
+
+Lint/AssignmentInCondition:
+  Enabled: true
+
+Lint/DeprecatedClassMethods:
+  Enabled: true
+
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+
+Lint/DuplicateCaseCondition:
+  Enabled: true
+
+Lint/DuplicateHashKey:
+  Enabled: true
+
+Lint/DuplicateMethods:
+  Enabled: true
+
+Lint/DuplicateRescueException:
+  Enabled: true
+
+Lint/EmptyConditionalBody:
+  Enabled: true
+  AllowComments: true
+
+Lint/EmptyWhen:
+  Enabled: true
+  AllowComments: true
+
+Lint/ImplicitStringConcatenation:
+  Enabled: true
+
+Lint/IneffectiveAccessModifier:
+  Enabled: true
+
+Lint/LiteralAsCondition:
+  Enabled: true
+
+# TODO check later
+Lint/NonLocalExitFromIterator:
+  Enabled: false
+
+Lint/RedundantStringCoercion:
+  Enabled: true
+
+Lint/RescueException:
+  Enabled: true
+  Exclude:
+    - 'app/models/item.rb'
+
+# TODO In another pr
+Lint/ShadowedArgument:
+  Enabled: false
+
+Lint/ShadowingOuterLocalVariable:
+  Enabled: true
+
+Lint/SuppressedException:
+  Enabled: true
+
+Lint/UnderscorePrefixedVariableName:
+  Enabled: true
+
+Lint/UnreachableCode:
+  Enabled: true
+
+Lint/UriEscapeUnescape:
+  Enabled: true
+
+Lint/UselessAccessModifier:
+  Enabled: true
+
+# TODO look at it later
+Security/Eval:
+  Enabled: false
+
+Security/JSONLoad:
+  Enabled: true
+
+Security/Open:
+  Enabled: true
+
+Security/YAMLLoad:
+  Enabled: true
+  Exclude:
+    - 'app/models/playlist.rb'
+
+Style/AutoResourceCleanup:
+  Enabled: true
+  Exclude:
+    - 'lib/playlistparser/**/*'
+    - 'lib/graphics.rb'
+    - 'lib/blip_util.rb'
+    - 'app/controllers/v1/api/media_controller.rb'
+
+Style/BisectedAttrAccessor:
+  Enabled: true
+
+Style/ImplicitRuntimeError:
+  Enabled: true
+
+Style/IpAddresses:
+  Enabled: true
+  Exclude:
+    - 'spec/**/*'
+
+Style/DateTime:
+  Enabled: true
+
+Style/EmptyMethod:
+  Enabled: true
+  EnforcedStyle: expanded
+
+Style/MutableConstant:
+  Enabled: true
+
+Style/RedundantInterpolation:
+  Enabled: true
+
+# kept false for always specifying exception class explicitly
+Style/RedundantException:
+  Enabled: false
+
+Style/RedundantParentheses:
+  Enabled: true
+
+Style/RescueStandardError:
+  Enabled: true
+  EnforcedStyle: explicit
+
+Style/SafeNavigation:
+  Enabled: true
+
+Style/SignalException:
+  Enabled: true
+
+Style/TrailingCommaInArguments:
+  Enabled: true
+
+Style/TrailingCommaInHashLiteral:
+  Enabled: true
+  EnforcedStyleForMultiline: comma
+
+Style/ZeroLengthPredicate:
+  Enabled: true
