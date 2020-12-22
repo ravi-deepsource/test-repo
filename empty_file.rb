@@ -2,3 +2,5 @@
 
 open(something)
 URI.open(something)
+
+BigDecimal.new("123")
