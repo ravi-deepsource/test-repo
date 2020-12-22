@@ -1,6 +1,5 @@
 inherit_gem:
   rubocop-shopify: rubocop.yml
-  percy-style: default.yml
 
 inherit_from: .rubocop_todo.yml
 
