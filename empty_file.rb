@@ -20,3 +20,13 @@ end
 
 a = 3
 b = 1 + a
+
+return 1, 2, 3
+
+p = 1
+
+begin
+  do_something
+rescue Exception
+  do_nothing
+end
