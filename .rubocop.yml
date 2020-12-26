@@ -1,0 +1,14 @@
+DeepSource/BadOrAssignment:
+  Enabled: true
+
+DeepSource/BinaryExpressionOperandOrder:
+  Enabled: true
+
+DeepSource/DuplicateConstantAssignment:
+  Enabled: true
+
+DeepSource/ExcessiveGuardClauses:
+  Enabled: true
+
+DeepSource/IoSelectWithSingleArgument:
+  Enabled: true
