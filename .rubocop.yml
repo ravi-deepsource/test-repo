@@ -12,3 +12,6 @@ DeepSource/ExcessiveGuardClauses:
 
 DeepSource/IoSelectWithSingleArgument:
   Enabled: true
+
+Lint/RescueException:
+  ErrorName: RuntimeError
