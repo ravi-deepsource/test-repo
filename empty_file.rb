@@ -7,6 +7,7 @@ SOME_CONSTANT = 'some_value'
 SOME_CONSTANT = 'some_other_value'
 
 IO.select([io], [], [], timeout)
+IO.select([], [io], [], timeout)
 
 def display_cop_names?
   return true if debug?
