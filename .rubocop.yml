@@ -19,5 +19,5 @@ Layout/SpaceAroundOperators:
 Performance/Count:
   SafeMode: true
 
-Layout/CaseIndentation:
-  IndentWhenRelativeTo: parent
+Lint/SafeNavigationConsistency:
+    Whitelist: presence
