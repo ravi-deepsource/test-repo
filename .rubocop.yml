@@ -1,20 +1,13 @@
-Layout/AlignArguments:
-  Enabled: false
-
-Layout/AlignArray:
-  Enabled: true
-
-Layout/AlignHash:
-  Enabled: false
-
-Layout/AlignParameters:
-  Enabled: true
-
-Layout/IndentArray:
-  Enabled: true
-
+---
 Layout/SpaceAroundOperators:
   MultiSpaceAllowedForOperators: false
-  
-Performance/Count:
-  SafeMode: true
+Layout/ArgumentAlignment:
+  Enabled: false
+Layout/ArrayAlignment:
+  Enabled: true
+Layout/HashAlignment:
+  Enabled: false
+Layout/ParameterAlignment:
+  Enabled: true
+Layout/FirstArrayElementIndentation:
+  Enabled: true
