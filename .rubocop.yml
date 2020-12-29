@@ -1,17 +1,20 @@
-DeepSource/BadOrAssignment:
+Layout/AlignArguments:
+  Enabled: false
+
+Layout/AlignArray:
   Enabled: true
 
-DeepSource/BinaryExpressionOperandOrder:
+Layout/AlignHash:
+  Enabled: false
+
+Layout/AlignParameters:
   Enabled: true
 
-DeepSource/DuplicateConstantAssignment:
+Layout/IndentArray:
   Enabled: true
 
-DeepSource/ExcessiveGuardClauses:
-  Enabled: true
-
-DeepSource/IoSelectWithSingleArgument:
-  Enabled: true
-
-Lint/RescueException:
-  ErrorName: RuntimeError
+Layout/SpaceAroundOperators:
+  MultiSpaceAllowedForOperators: false
+  
+Performance/Count:
+  SafeMode: true
