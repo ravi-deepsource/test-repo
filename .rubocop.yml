@@ -1,4 +1,6 @@
-require: rubocop-performance
+require:
+  - rubocop-performance
+  - rubocop-rspec
 
 Layout/AlignArguments:
   Enabled: false
