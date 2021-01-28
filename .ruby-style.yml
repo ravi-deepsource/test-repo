@@ -1,0 +1,8 @@
+Layout/AlignArguments:
+  Enabled: false
+
+Layout/AlignArray:
+  Enabled: false
+
+Layout/AlignHash:
+  Enabled: false
