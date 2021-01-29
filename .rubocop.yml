@@ -28,3 +28,9 @@ Lint/SafeNavigationConsistency:
 
 Lint/DeprecatedConstants:
   Enabled: true
+
+Style/SwapValues:
+  Enabled: true
+
+Lint/UnmodifiedReduceAccumulator:
+  Enabled: true
