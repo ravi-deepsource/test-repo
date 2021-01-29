@@ -24,4 +24,7 @@ Performance/Count:
   SafeMode: true
 
 Lint/SafeNavigationConsistency:
-    Whitelist: presence
+  Whitelist: presence
+
+Lint/DeprecatedConstants:
+  Enabled: true
