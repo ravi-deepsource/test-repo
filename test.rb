@@ -16,3 +16,8 @@ end
 tmp = x
 x = y
 y = tmp
+
+
+(1..4).reduce(0) do |acc, el|
+  el * 2
+end
