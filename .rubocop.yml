@@ -26,9 +26,6 @@ Performance/Count:
 Lint/SafeNavigationConsistency:
   Whitelist: presence
 
-Lint/DeprecatedConstants:
-  Enabled: true
-
 Style/SwapValues:
   Enabled: true
 
