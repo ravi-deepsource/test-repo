@@ -34,3 +34,6 @@ Style/SwapValues:
 
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
+
+Lint/RescueException:
+  ErrorName: RuntimeError
