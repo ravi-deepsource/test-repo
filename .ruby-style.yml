@@ -1,3 +1,6 @@
+inherit_from:
+- .some_other_file.yml
+
 Layout/AlignArguments:
   Enabled: false
 
