@@ -37,3 +37,6 @@ Lint/UnmodifiedReduceAccumulator:
 
 Lint/RescueException:
   ErrorName: RuntimeError
+
+Lint/UselessAssignment:
+  FixType: Replace
