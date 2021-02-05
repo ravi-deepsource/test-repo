@@ -39,4 +39,4 @@ Lint/RescueException:
   ErrorName: RuntimeError
 
 Lint/UselessAssignment:
-  FixType: Remove
+  FixType: Test
