@@ -5,7 +5,6 @@ if something
   do_something_else
 end
 
-
 case some_var
 when 1
   do_something
