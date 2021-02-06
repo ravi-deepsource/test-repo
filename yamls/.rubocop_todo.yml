@@ -1,0 +1,6 @@
+
+DeepSource/BadOrAssignment:
+  Enabled: true
+
+DeepSource/ExcessiveGuardClauses
+  Enabled: true
