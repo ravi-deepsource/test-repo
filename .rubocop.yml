@@ -1,5 +1,6 @@
 inherit_from:
 - 'https://shopify.github.io/ruby-style-guide/rubocop.yml'
+- yamls/.rubocop_todo.yml
 
 require:
   - rubocop-performance
