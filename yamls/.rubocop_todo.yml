@@ -4,3 +4,6 @@ DeepSource/BadOrAssignment:
 
 DeepSource/ExcessiveGuardClauses:
   Enabled: true
+
+Layout/IndentArray:
+  Enabled: true
