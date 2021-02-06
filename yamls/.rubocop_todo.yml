@@ -2,5 +2,5 @@
 DeepSource/BadOrAssignment:
   Enabled: true
 
-DeepSource/ExcessiveGuardClauses
+DeepSource/ExcessiveGuardClauses:
   Enabled: true
