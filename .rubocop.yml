@@ -22,6 +22,7 @@ Layout/IndentArray:
   Enabled: true
 
 Layout/SpaceAroundOperators:
+  Enabled: true
   MultiSpaceAllowedForOperators: false
   
 Performance/Count:
