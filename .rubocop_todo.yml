@@ -1,8 +1,8 @@
+Layout/IndentArray:
+  Enabled: true
+
 DeepSource/BadOrAssignment:
   Enabled: true
 
 DeepSource/ExcessiveGuardClauses:
-  Enabled: true
-
-Layout/IndentArray:
   Enabled: true
