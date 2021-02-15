@@ -15,3 +15,4 @@ ip_addr = '122.132.11.133'
 
 test_string = 'Hello'
 puts test_string
+puts "#{test_string} There!"
