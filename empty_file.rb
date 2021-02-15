@@ -5,13 +5,12 @@ if something
   do_something_else
 end
 
-
 case some_var
 when 1
   do_something
 end
 
-ip_addr = '122.132.11.133'
+ip_addr = "122.132.11.133"
 
-test_string = 'Hello'
+test_string = "Hello"
 puts test_string
