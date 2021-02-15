@@ -13,5 +13,5 @@ end
 
 ip_addr = '122.132.11.133'
 
-test_string = 'Hello'
+test_string = 'Cya fellas!'
 puts test_string
