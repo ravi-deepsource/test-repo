@@ -4,11 +4,12 @@ NIL
 TRUE
 FALSE
 
-r = /[xyx]/
+r = /[xy]/
 
 if something
   do_nothing
-else do_this
+else
+  do_this
   do_that
 end
 
@@ -16,7 +17,6 @@ end
 tmp = x
 x = y
 y = tmp
-
 
 (1..4).reduce(0) do |acc, el|
   el * 2
