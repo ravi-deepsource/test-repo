@@ -1,44 +1,32 @@
+---
 inherit_from:
-- 'https://shopify.github.io/ruby-style-guide/rubocop.yml'
-- .rubocop_todo.yml
-
+- https://shopify.github.io/ruby-style-guide/rubocop.yml
+- ".rubocop_todo.yml"
 require:
-  - rubocop-performance
-  - rubocop-rspec
-
-Layout/AlignArguments:
-  Enabled: false
-
-Layout/AlignArray:
-  Enabled: true
-
-Layout/AlignHash:
-  Enabled: false
-
-Layout/AlignParameters:
-  Enabled: true
-
-Layout/IndentArray:
-  Enabled: true
-
+- rubocop-performance
+- rubocop-rspec
 Layout/SpaceAroundOperators:
   Enabled: true
   MultiSpaceAllowedForOperators: false
-  
 Performance/Count:
   SafeMode: true
-
 Lint/SafeNavigationConsistency:
-  Whitelist: presence
-
+  AllowedMethods: presence
 Style/SwapValues:
   Enabled: true
-
 Lint/UnmodifiedReduceAccumulator:
   Enabled: true
-
 Lint/RescueException:
   ErrorName: RuntimeError
-
 Lint/UselessAssignment:
   FixType: Test
+Layout/ArgumentAlignment:
+  Enabled: false
+Layout/ArrayAlignment:
+  Enabled: true
+Layout/HashAlignment:
+  Enabled: false
+Layout/ParameterAlignment:
+  Enabled: true
+Layout/FirstArrayElementIndentation:
+  Enabled: true
