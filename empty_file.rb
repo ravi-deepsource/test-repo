@@ -12,3 +12,6 @@ when 1
 end
 
 ip_addr = '122.132.11.133'
+
+test_string = 'Hello'
+puts test_string
