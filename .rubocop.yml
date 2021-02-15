@@ -7,9 +7,6 @@ require:
 - rubocop-rspec
 Layout/SpaceAroundOperators:
   Enabled: true
-  MultiSpaceAllowedForOperators: false
-Performance/Count:
-  SafeMode: true
 Lint/SafeNavigationConsistency:
   AllowedMethods: presence
 Style/SwapValues:
