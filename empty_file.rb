@@ -1,8 +1,8 @@
 # frozen_string_literal: true
 
-test_string = 'Heya!'
-puts test_string
-puts "#{test_string} How you doing?"
-
-
-puts 'Triggering DeepSource'
+require 'hello'
+require 'hello'
+require 'yaml'
+require_relative '../test'
+require_relative '../test'
+require_relative './fine'
