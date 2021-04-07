@@ -5,5 +5,9 @@ name = "ruby"
 enabled = true
 
 [[transformers]]
-name = "gofmt"
+name = "rubocop"
+enabled = true
+
+[[transformers]]
+name = "black"
 enabled = true
