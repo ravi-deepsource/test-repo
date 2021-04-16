@@ -7,7 +7,3 @@ enabled = true
 [[transformers]]
 name = "rubocop"
 enabled = true
-
-[[transformers]]
-name = "black"
-enabled = true
