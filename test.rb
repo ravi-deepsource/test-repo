@@ -25,3 +25,8 @@ b = Spree::Locations::Castle.new(3)
 (1..4).reduce(0) do |acc, el|
   el * 2
 end
+
+result = (1..4).reduce(0) do |acc, i|
+  next if i.odd?
+  acc + i
+end
