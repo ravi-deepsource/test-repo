@@ -18,6 +18,10 @@ x = y
 y = tmp
 
 
+a = 3
+b = Spree::Locations::Castle.new(3)
+
+
 (1..4).reduce(0) do |acc, el|
   el * 2
 end
